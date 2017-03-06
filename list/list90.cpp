@@ -70,7 +70,7 @@ listnode* list::insertbehind(int num,char ball){//在任意位置添加 假设�
 			}
 }
 list::list(int length){
-	data = new listnode[length];
+	data = new listnode[length+10];
 	rank = 0;
 	total = 0;
 }
